@@ -1,5 +1,6 @@
 
 // Finds Duplicate values for a given key in an array of objects
+// arr = [{"field":"value"}], key = "field" 
 const findDuplicateByKey= (arr, key) => {
   return arr
     .map((x) => x[key])
